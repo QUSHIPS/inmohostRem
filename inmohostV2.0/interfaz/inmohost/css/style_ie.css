@@ -1,0 +1,25 @@
+/* CSS Document */
+
+* html .bordeMenuPrincipalDerecha{
+	background-color: transparent; 
+	background-image: none;  
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='interfaz/inmohost/images/menu/derecha.png', sizingMethod='scale');
+}
+
+* html .bordeMenuPrincipalIzquierda{
+	background-color: transparent; 
+	background-image: none;  
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='interfaz/inmohost/images/menu/izquierda.png', sizingMethod='scale');
+}
+
+* html .bordeMenuPrincipalSuperior{
+	background-color: transparent; 
+	background-image: none;  
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='interfaz/inmohost/images/menu/superior.png', sizingMethod='scale');
+}
+
+* html .menuPrincipalSuperiorBuscador{
+	background-color: transparent; 
+	background-image: none;  
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='interfaz/inmohost/images/barraBuscador/fondo.png', sizingMethod='scale');
+}

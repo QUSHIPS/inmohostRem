@@ -1,0 +1,58 @@
+/* CSS Document */
+.overlay_neutra {
+	filter:alpha(opacity=60);
+}
+
+* html .neutra_nw {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/esquinaIzqSup.png", sizingMethod="crop");
+}
+
+* html .neutra_n {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/superior.png", sizingMethod="scale");
+}
+
+* html .neutra_ne {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/esquinaDerSup.png", sizingMethod="crop");
+}
+
+* html .neutra_w {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/izquierdo.png", sizingMethod="scale");
+}
+
+* html .neutra_e {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/derecha.png", sizingMethod="scale");
+}
+
+* html .neutra_sw {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/esquinaIzqInf.png", sizingMethod="scale");
+}
+
+* html .neutra_s {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/inferior.png", sizingMethod="scale");
+}
+
+* html .neutra_se {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/esquinaDerInf.png", sizingMethod="scale");
+}
+
+* html .neutra_sizer {
+	background-color: transparent;
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="interfaz/inmohost/images/neutra/esquinaDerInf.png", sizingMethod="scale");
+}

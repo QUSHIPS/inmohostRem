@@ -1,0 +1,39 @@
+#MenuPRP {
+	position:absolute;
+	left:0px;
+	top:25px;
+	visibility:hidden;
+	z-index:300;
+}
+
+ul {  
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+ul li {
+	padding:0;
+}
+ul li a {
+	font-weight:bold;
+	display:block;
+	text-decoration:none;
+	border-top:0px;
+	border-left:1px solid #ffffff;
+	border-bottom:1px solid #555555;
+	border-right:1px solid #555555;
+	voice-family: "\"}\"";
+	voice-family:inherit;
+	background:#EEEEEE;
+	padding:2px;
+}
+li {
+	width:105px;
+}
+a:hover {
+	background:#FF9900;
+}
+.subMenu {
+	margin-left:100px;
+	width:60px;
+}

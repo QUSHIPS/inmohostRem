@@ -1,0 +1,148 @@
+.overlay_neutra {
+	background-color: #333333;
+/*	filter:alpha(opacity=60); */
+	-moz-opacity: 0.6;
+	opacity: 0.6;
+}
+
+.neutra_nw {
+	background: transparent url(images/neutra/esquinaIzqSup.png) no-repeat 0 0;
+  width:9px;
+  height:25px;
+}
+
+.neutra_n {
+  background: transparent url(images/neutra/superior.png) repeat-x 0 0;
+  height:25px;
+}
+
+.neutra_ne {
+  background: transparent url(images/neutra/esquinaDerSup.png) no-repeat 0 0;
+  width:15px;	  
+  height:25px;
+}
+
+.neutra_w {
+  background: transparent url(images/neutra/izquierdo.png) repeat-y top left;
+  width:5px;
+}
+
+.neutra_e {
+  background: transparent url(images/neutra/derecha.png) repeat-y top right;
+  width:12px;
+}
+
+.neutra_sw {
+  background: transparent url(images/neutra/esquinaIzqInf.png) no-repeat 0 0;
+  width:9px;
+  height:15px;
+}
+
+.neutra_s  {
+  background: transparent url(images/neutra/inferior.png) repeat-x 0 0;			
+  height:15px;
+}
+
+.neutra_se, .neutra_sizer {
+  background: transparent url(images/neutra/esquinaDerInf.png) no-repeat 0 0;
+  width:15px;
+  height:15px;
+}
+
+.neutra_sizer {
+	cursor:se-resize;	
+}
+
+.neutra_close {
+	width: 23px;
+	height: 23px;
+	background: transparent url(images/neutra/button-close-focus.gif) no-repeat 0 0;
+	position:absolute;
+	top:0px;
+	right:11px;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.neutra_minimize {
+	width: 23px;
+	height: 23px;
+	background: transparent url(images/neutra/button-min-focus.gif) no-repeat 0 0;
+	position:absolute;
+	top:0px;
+	right:55px;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.neutra_maximize {
+	width: 23px;
+	height: 23px;
+	background: transparent url(images/neutra/button-max-focus.gif) no-repeat 0 0;
+	position:absolute;
+	top:0px;
+	right:33px;
+	cursor:pointer;
+	z-index:1000;
+}
+
+.neutra_title {
+	float:left;
+	height:14px;
+	font-size:14px;
+	font-weight:bold;
+	text-align:left;
+	margin-top:0px;
+	width:100%;
+	color:#333333;
+}
+
+.neutra_content {
+	overflow:auto;
+	color: #000000;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	background:#333333;
+}
+.dialog_content {
+	overflow:auto;
+	color: #333333;
+	font-family: Tahoma, Arial, sans-serif;
+	font-size: 10px;
+	background-color:#333333;
+}
+
+.top_draggable, .bottom_draggable {
+  cursor:move;
+}
+
+.status_bar {
+  font-size:10px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+  margin-bottom:13px;
+}
+.status_bar input{
+  font-size:10px;
+  font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+/* DO NOT CHANGE THESE VALUES*/
+.dialog {
+	display: block;
+	position: absolute;
+}
+
+.dialog table.table_neutra  { 
+	border-collapse: collapse; 
+	border-spacing: 0; 
+	width: 100%;
+	margin: 0px;
+	padding:0px;
+}
+
+.dialog table.table_neutra td , .dialog table.table_neutra th { 
+  padding: 0; 
+}
+
+.dialog .title_neutra {
+  -moz-user-select:none;
+}
